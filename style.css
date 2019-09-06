@@ -1,0 +1,106 @@
+body {
+    background-color: #e3e3e3;
+    color: black;
+    font-family:Times New Roman;
+}
+hr {
+    border: 2px solid gray;
+}
+h1 {
+    text-align:center;
+    font-family: Times New Roman;
+    font-size: 4.5rem;
+    color: black;
+    text-shadow: 5px 2px 4px grey;
+}
+/*Profile Picture Floated*/
+img {
+    float: left;
+    border-radius: 50%;
+    color: white;
+    height: 230px;
+    width: 200px;
+    margin-right: 2.0rem;
+}
+/*Contact details in a tabular form*/
+table.center {
+    border:none;
+    font-family: Times New Roman;
+    font-size: 2.0rem;
+    color: black;
+}
+h2 {
+    font-size: 3.5rem;
+    color: black;
+    text-shadow: 5px 2px 4px grey;
+}
+h3 {
+    color: black;
+    font-size: 2rem;
+}
+li {
+    list-style:circle;
+}
+.container {
+    padding: 0 10% 2% 1%;
+    margin-top: 20px;
+    box-shadow: none;
+    box-sizing: border-box;
+}
+.container h3 {
+    font-family: Times New Roman;
+    text-transform: uppercase;
+    text-align: center;
+    width: 30%;
+    background-color: lightgray;
+    background: transparent;
+    border: none;
+    border-bottom: 6px solid lightgray;
+    color: blue;
+}
+label {
+    font-family: Times New Roman;
+    font-size: 0.5rem;
+    display: none;
+}
+input {
+    width: 50%;
+    padding: 10px;
+    margin: 5px 50px 22px 0;
+    border: none;
+    border-bottom: 6px solid lightgray;
+    box-shadow: none;
+    box-sizing: border-box;
+    outline: none;
+    font-family: Times New Roman;
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: blue;
+    background-color: lightgray;
+    background: transparent;
+}
+input[name=message] {
+    height: 100px;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 50px 22px 0;
+    border: none;
+    color: blue;
+    background-color: lightgray;
+    background: transparent;
+    font-family: Times New Roman;
+    font-size: 2.2rem;
+    font-weight: bold;
+    display: inline-block;
+}
+input[type=submit] {
+    font-family: Times New Roman;
+    text-transform: uppercase;
+    background-color: lightgray;
+    color: blue;
+    width: 40%;
+    cursor: pointer;
+}
+::placeholder {
+    color: green;
+}
